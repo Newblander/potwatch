@@ -159,10 +159,22 @@ If clamping mechanisms are your area, this is the single most valuable contribut
 
 ## Licence
 
-- **Firmware** — [GNU GPL v3](LICENSE.txt). Use it, change it, sell devices built with it; keep your changes open and credit the original.
-- **Hardware, models, diagrams, photographs and documentation** — [CC BY-SA 4.0](LICENSE-CC-BY-SA-4.0.txt), on the same terms.
+- **Firmware** (`firmware/`) — [GNU GPL v3](LICENSE.txt)
+- **Hardware, models, diagrams, photographs and documentation** — [CC BY-SA 4.0](LICENSE-CC-BY-SA-4.0.txt)
 
-Nothing here is patented or trademarked, and it never will be. If you improve it, the only thing asked in return is that your version stays as open as this one.
+Nothing here is patented or trademarked, and it never will be.
+
+### How to credit this project
+
+If you publish a remix, a fork, a photo set or a build guide based on the models, diagrams or documentation, copy this line somewhere sensible — a description, a README, a caption:
+
+> PotWatch by Ilia Kuzmin — https://potwatch.net — licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Modified from the original.
+
+Drop the last sentence if you did not change anything. That is the whole obligation: **say who made it, link back, note that you changed it, and keep your version under the same licence.**
+
+For the **firmware** the rules are different and a little lighter. GPL v3 does not ask you to advertise anyone. It asks you to keep the copyright notice in the source files, mark what you changed, publish your source under GPL v3 as well, and make that source available to anyone you give a device to. You are free to sell hardware running it.
+
+**What is not covered:** copyright protects these *files*, not the idea. If you look at this thing and design your own from scratch, you owe nothing at all — go ahead, and tell me how it turned out.
 
 ---
 
