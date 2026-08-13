@@ -63,7 +63,7 @@ A one-time calibration pins down the baseline for your kitchen; the barometer ha
 ├── firmware/potwatch/potwatch.ino   the firmware (Arduino, GPLv3)
 ├── hardware/
 │   ├── wiring-diagram.svg           full schematic, including the power chain
-│   └── models/                      STEP files for the printed parts
+│   └── models/                      the four printed parts, as STL and STEP
 ├── img/                             photographs
 ├── video/                           12-second demonstration
 ├── LICENSE.txt                      GPL v3 — the firmware
@@ -110,14 +110,18 @@ Power chain: **cell → TP4056 → 3.3 V step-down → switch → board 3V3 pin.
 
 ## Printing
 
-| Part | Material on the prototype |
-|---|---|
-| Enclosure, clip holders | Fibre-reinforced ABS |
-| Cover | ASA |
+| Part | Size | Material on the prototype |
+|---|---|---|
+| [enclosure](hardware/models/enclosure.stl) · [STEP](hardware/models/enclosure.step) | 60.5 × 84 × 24 mm | Fibre-reinforced ABS |
+| [cover](hardware/models/cover.stl) · [STEP](hardware/models/cover.step) | 59 × 84 × 3 mm | ASA |
+| [holder1](hardware/models/holder1.stl) · [STEP](hardware/models/holder1.step) | 59 × 15 × 5 mm | Fibre-reinforced ABS |
+| [holder2](hardware/models/holder2.stl) · [STEP](hardware/models/holder2.step) | 35 × 15 × 5 mm | Fibre-reinforced ABS |
+
+Every part is published twice: **STL** to print as-is, **STEP** to edit. Bambu Studio, PrusaSlicer and OrcaSlicer import STEP directly, so either one goes straight into the slicer.
 
 Standard slicer settings, no supports needed. **ABS and ASA are chosen deliberately:** the device sits above a pot of steam, and PLA softens around 60 °C. Both want an enclosed printer; on an open-frame machine PETG is the sensible compromise.
 
-The screw holes are printed undersized on purpose so the screws cut their own thread — no nuts and no inserts. Different filaments shrink differently, so test one hole before printing the lot. If you prefer heat-set inserts, open the holes out; the models are editable STEP.
+The screw holes are printed undersized on purpose so the screws cut their own thread — no nuts and no inserts. Different filaments shrink differently, so test one hole before printing the lot. If you prefer heat-set inserts, open the holes out — that is what the STEP files are for.
 
 ## Flashing
 
