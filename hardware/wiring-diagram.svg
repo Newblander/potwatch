@@ -179,7 +179,7 @@
 
   <!-- battery -->
   <rect x="60" y="740" width="190" height="120" rx="12" fill="#151812" stroke="#262b20" stroke-width="1.5"/>
-  <text x="80" y="775" fill="#e8ece3" font-size="15" font-weight="bold" font-family="'Space Grotesk', 'Segoe UI', sans-serif">Li-ion cell</text>
+  <text x="80" y="775" fill="#e8ece3" font-size="15" font-weight="bold" font-family="'Space Grotesk', 'Segoe UI', sans-serif">LiPo cell</text>
   <text x="80" y="793" fill="#9aa392" font-size="11">3.7 V nominal</text>
   <text x="80" y="809" fill="#9aa392" font-size="11">LiPo 802060</text>
   <rect x="80" y="824" width="40" height="18" rx="3" fill="none" stroke="#9aa392" stroke-width="1.5"/>
